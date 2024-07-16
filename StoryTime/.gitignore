@@ -9,8 +9,8 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
-StoryTime/components/CreateStory.jsx
-StoryTime/components/LetsCreate.jsx
+components/CreateStory
+components/LetsCreate
 
 # macOS
 .DS_Store

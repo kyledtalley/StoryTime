@@ -1,0 +1,17 @@
+body {
+	background-color: #161622;
+	font-family: Arial, sans-serif;
+}
+
+.loader {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.status-bar {
+	background-color: #161622;
+}

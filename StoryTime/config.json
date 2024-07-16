@@ -1,0 +1,40 @@
+{
+	"expo": {
+		"name": "StoryTime",
+		"slug": "StoryTime",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./constants/icons.js",
+		"scheme": "StoryTime",
+		"userInterfaceStyle": "automatic",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"ios": {
+			"supportsTablet": true,
+			"package": "com.kydata.app"
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#ffffff"
+			}
+		},
+		"web": {
+			"bundler": "metro",
+			"output": "static",
+			"favicon": "./assets/images/favicon.png"
+		},
+		"plugins": ["expo-router", "expo-env"],
+		"experiments": {
+			"typedRoutes": true
+		},
+		"extra": {
+			"APPWRITE_ENDPOINT": "@env:APPWRITE_ENDPOINT",
+			"APPWRITE_PROJECT_ID": "@env:APPWRITE_PROJECT_ID",
+			"APPWRITE_API_KEY": "@env:APPWRITE_API_KEY"
+		}
+	}
+}

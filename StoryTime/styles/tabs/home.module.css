@@ -1,0 +1,52 @@
+.container {
+	flex: 1;
+	background-color: #0a0a0a;
+}
+
+.header {
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.headerContent {
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 24px;
+}
+
+.welcomeText {
+	font-size: 14px;
+	color: #cdcde0;
+}
+
+.usernameText {
+	font-size: 24px;
+	font-weight: 600;
+	color: #7915d6;
+}
+
+.logoContainer {
+	margin-top: 8px;
+}
+
+.logo {
+	width: 36px;
+	height: 40px;
+	border-radius: 18px;
+}
+
+.latestStoriesContainer {
+	flex: 1;
+	padding-top: 20px;
+	padding-bottom: 32px;
+}
+
+.latestStoriesText {
+	font-size: 18px;
+	font-weight: 400;
+	color: #cdcde0;
+	margin-bottom: 12px;
+}

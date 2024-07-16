@@ -1,0 +1,74 @@
+/* styles/search/query.css */
+
+.container {
+	flex: 1;
+	background-color: #0a0a0a;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 6px;
+	margin-bottom: 12px;
+	padding: 4px;
+}
+
+.logoutContainer {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 10px;
+}
+
+.logoutIcon {
+	width: 24px;
+	height: 24px;
+}
+
+.avatarContainer {
+	width: 64px;
+	height: 64px;
+	border: 1px solid #ffd700; /* Assuming secondary color is gold */
+	border-radius: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.avatar {
+	width: 90%;
+	height: 90%;
+	border-radius: 32px;
+}
+
+.usernameContainer {
+	margin-top: 20px;
+}
+
+.usernameText {
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+.infoContainer {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 10px;
+}
+
+.infoBox {
+	margin-right: 10px;
+}
+
+.infoText {
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}

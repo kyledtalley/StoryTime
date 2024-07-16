@@ -1,0 +1,40 @@
+.container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding: 20px;
+}
+
+.logo {
+	width: 200px;
+	height: 200px;
+	object-fit: contain;
+}
+
+.title {
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.form-field {
+	margin-top: 20px;
+}
+
+.button {
+	margin-top: 20px;
+}
+
+.link-container {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.link {
+	color: #ffa001;
+	font-weight: bold;
+}

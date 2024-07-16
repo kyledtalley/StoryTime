@@ -32,7 +32,7 @@ const LetsCreate = () => {
 	const router = useRouter()
 
 	const openai = new OpenAI({
-		apiKey: "sk-proj-NXghqxCxsZYvpTHlC8WkT3BlbkFJLqzXC83aLc5N3m7JWdFH",
+		apiKey: "TEMPORARILY REMOVED FROM BOTH LETSCREATE AND .ENV",
 	})
 
 	const handleAddName = () => {

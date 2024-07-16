@@ -9,6 +9,8 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+components/CreateStory.jsx
+components/LetsCreate.jsx
 
 # macOS
 .DS_Store

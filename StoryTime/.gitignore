@@ -9,8 +9,10 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
-components/CreateStory
-components/LetsCreate
+
+# Ignore specific files
+StoryTime/components/CreateStory.jsx
+StoryTime/components/LetsCreate.jsx
 
 # macOS
 .DS_Store

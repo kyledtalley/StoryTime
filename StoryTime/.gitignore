@@ -11,8 +11,8 @@ npm-debug.*
 web-build/
 
 # Ignore specific files
-StoryTime/components/CreateStory.jsx
-StoryTime/components/LetsCreate.jsx
+StoryTime/StoryTime/components/CreateStory.jsx
+StoryTime/StoryTime/components/LetsCreate.jsx
 
 # macOS
 .DS_Store
